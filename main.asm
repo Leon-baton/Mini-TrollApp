@@ -24,5 +24,5 @@ section .text
         je    	exitWindows       ; Вызов локальной функции "exitWindows"
                                   ; Если вместо кнопки "ОК" будет нажата другая, с окном ничего не произойдёт
 
-    start:
+    _start:
         call createMessageBox     ; Вызов локальной функции "createMessageBox"
