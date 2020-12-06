@@ -1,4 +1,4 @@
-global start
+global _start
 
 extern MessageBoxA                ; user32.dll
 extern ExitWindowsEx              ; user32.dll
